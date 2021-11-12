@@ -58,6 +58,26 @@ const routes: Routes = [
     path: "subscription-s09-v02",
     loadChildren: () => import("./subscription-s09-v02/subscription-s09-v02.module").then( m => m.SubscriptionS09V02PageModule)
   },
+  {
+    path: 'subscription-s01-v03',
+    loadChildren: () => import('./subscription-s01-v03/subscription-s01-v03.module').then( m => m.SubscriptionS01V03PageModule)
+  },
+  {
+    path: 'subscription-s01-v04',
+    loadChildren: () => import('./subscription-s01-v04/subscription-s01-v04.module').then( m => m.SubscriptionS01V04PageModule)
+  },
+  {
+    path: 'subscription-s02-v03',
+    loadChildren: () => import('./subscription-s02-v03/subscription-s02-v03.module').then( m => m.SubscriptionS02V03PageModule)
+  },
+  {
+    path: 'subscription-s10-v02',
+    loadChildren: () => import('./subscription-s10-v02/subscription-s10-v02.module').then( m => m.SubscriptionS10V02PageModule)
+  },
+  {
+    path: 'subscription-s10-v03',
+    loadChildren: () => import('./subscription-s10-v03/subscription-s10-v03.module').then( m => m.SubscriptionS10V03PageModule)
+  },
 ];
 
 @NgModule({
